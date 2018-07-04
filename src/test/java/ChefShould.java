@@ -10,7 +10,7 @@ import java.io.PrintStream;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class CookingTests {
+public class ChefShould {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
@@ -25,7 +25,7 @@ public class CookingTests {
     }
 
     @Test
-    public void canCookSteakMediumRare() {
+    public void cookSteakMediumRare() {
         Chef gordon = new Chef();
         gordon.cook(new MediumRareStrategy());
 
@@ -33,7 +33,7 @@ public class CookingTests {
     }
 
     @Test
-    public void canCookSteakRare() {
+    public void cookSteakRare() {
         Chef gordon = new Chef();
         gordon.cook(new RareStrategy());
 

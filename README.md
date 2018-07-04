@@ -17,6 +17,6 @@ Chef gordon = new Chef();
 gordon.cook(new MediumRareStrategy());
 ```
 ## Running the tests
-In the project root, run the [tests](./src/test/java/CookingTests.java) by running the below:
+In the project root, run the [tests](./src/test/java/ChefShould.java) by running the below:
 
     $ ./gradlew test
