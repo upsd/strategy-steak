@@ -14,7 +14,7 @@ An example is shown below
 Chef gordon = new Chef();
 
 // Cook the steak, specifying the strategy (will output "Cooking steak medium-rare...")
-gordon.cook(new MediumRareStrategy());
+gordon.cook(new MediumRareStrategy(new Console()));
 ```
 ## Running the tests
 In the project root, run the [tests](./src/test/java/ChefShould.java) by running the below:
